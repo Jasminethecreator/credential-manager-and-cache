@@ -1,23 +1,28 @@
-<h1>Credential Manager / Clearing Cache</h1>
-This tutorial outlines the process of managing Windows Credential Manager and clearing
-cached credentials to troubleshoot common authentication and sign-in issues.<br />
-<h2>Environments and Technologies Used</h2>
-- Microsoft Azure
-- Windows Environment
-<h2>Operating Systems Used </h2>
-- Windows 11
-<h2>Credential Manager</h2>
-<p>
+# Credential Manager / Clearing Cache
 
+## Objective
+Manage Windows Credential Manager and clear cached credentials to resolve authentication and sign-in issues.
+
+## Scenario
+This lab simulated resolving an account lockout issue by removing stored credentials and clearing cached data that could be causing repeated sign-in failures.
+
+## Tasks Completed
+Removed stored Windows credentials as part of account lockout remediation.
+Deleted cached images and files as part of further account lockout remediation.
+
+## Screenshots
 [Image Placeholder]
-</p>
-<p>
-Process of removing Windows credentials for account lockout remediation.
-</p>
-<br />
-<p>
 [Image Placeholder]
-</p>
-<p>
-Deleted cache images and files for further account lockout remediation.
-</p>
+
+## Skills Demonstrated
+Credential Management
+Account Troubleshooting
+Windows Administration
+
+## What I Learned
+This lab helped me understand how outdated or cached credentials can silently cause repeated sign-in failures, and why clearing Credential Manager is often an overlooked first step in resolving account lockout issues.
+
+## Lab Environment
+Microsoft Azure
+Windows Environment
+Windows 11
